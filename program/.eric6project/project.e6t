@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project project -->
+<!-- Saved: 2021-05-04, 21:40:55 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{c6adb285-1a93-437a-8e0b-6469507e1a32}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-05-04, 21:40:52</Created>
+    <Resource>
+      <Filename>ui/mainWindow.py</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{80c0c134-4ba0-4d3c-bcf9-45d3feaad360}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-05-04, 21:40:52</Created>
+    <Resource>
+      <Filename>ui/mainWindow.py</Filename>
+      <Linenumber>40</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{db490e2a-ce9a-4bfc-9f6f-aaaf727c0258}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-05-04, 21:40:52</Created>
+    <Resource>
+      <Filename>ui/mainWindow.py</Filename>
+      <Linenumber>48</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

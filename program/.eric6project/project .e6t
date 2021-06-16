@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project project  -->
+<!-- Saved: 2021-05-25, 19:28:01 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{5c5990fd-2257-48c1-b2c7-4f47dcc509f2}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-05-25, 19:27:38</Created>
+    <Resource>
+      <Filename>mainWindow.py</Filename>
+      <Linenumber>107</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3e71d486-378a-4637-a853-0de131db0bf9}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-05-25, 19:27:38</Created>
+    <Resource>
+      <Filename>mainWindow.py</Filename>
+      <Linenumber>115</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b3827987-b22b-48e0-bcc2-f796f8e2e95b}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-05-25, 19:27:38</Created>
+    <Resource>
+      <Filename>mainWindow.py</Filename>
+      <Linenumber>126</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3516e538-e8a9-48b1-a2cc-b7ec22a79790}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-05-25, 19:27:38</Created>
+    <Resource>
+      <Filename>mainWindow.py</Filename>
+      <Linenumber>107</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{6b836b3a-1038-4577-9b2f-3f3f6d31dc7a}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-05-25, 19:27:38</Created>
+    <Resource>
+      <Filename>mainWindow.py</Filename>
+      <Linenumber>115</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{0eea1f07-0161-49db-afc7-07397f8061b8}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-05-25, 19:27:38</Created>
+    <Resource>
+      <Filename>mainWindow.py</Filename>
+      <Linenumber>126</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

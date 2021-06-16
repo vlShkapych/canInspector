@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project canInspector -->
+<!-- Saved: 2021-06-03, 19:26:14 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="3" uid="{175338ff-0666-4fcd-858c-9eab3a39432e}">
+    <Summary>NOTE: to be revisited following future namespace cleanup.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/__init__.py</Filename>
+      <Linenumber>149</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{b335f7cd-d528-40b3-b47a-be03c87cefa2}">
+    <Summary>NOTE: Many of the methods of ndarray have corresponding functions.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/_add_newdocs.py</Filename>
+      <Linenumber>6</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{5555d39b-d84a-4ad3-81b8-7061d40c40b5}">
+    <Summary>WARNING::</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/_add_newdocs.py</Filename>
+      <Linenumber>1453</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e8241bbe-8781-47b5-aa8f-3f6232d51dcb}">
+    <Summary>TODO: work out how to put this on the base class, np.floating</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/_add_newdocs_scalars.py</Filename>
+      <Linenumber>235</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{51f50ada-cbd2-4f54-b858-5cd798c9158a}">
+    <Summary>TODO: this path can never be reached</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/_dtype.py</Filename>
+      <Linenumber>170</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{69d64925-f5b9-4820-ade6-1df66f4ffa2d}">
+    <Summary>TODO: this duplicates the C metastr_to_unicode functionality</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/_dtype.py</Filename>
+      <Linenumber>179</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{39bae587-e30e-4560-b753-0abceb646d85}">
+    <Summary>TODO: Optimize case when `where` is broadcast along a non-reduction</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/_methods.py</Filename>
+      <Linenumber>77</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a4903320-49b0-4504-aef9-a34caa6e8eaf}">
+    <Summary>NOTE: Most of the methods of this class are</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/defchararray.py</Filename>
+      <Linenumber>1998</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a7e19fe3-f431-4e31-90f0-38b24a124df3}">
+    <Summary>NOTE: technically, we should only dispatch on array-like arguments, not</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/einsumfunc.py</Filename>
+      <Linenumber>697</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{472a621a-59f8-4ff2-a4a3-5ea3138b9036}">
+    <Summary>FIXME: ordered_funcs_api is unused</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/generate_numpy_api.py</Filename>
+      <Linenumber>180</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{48605dad-2083-472d-8d6a-e66f851a32c8}">
+    <Summary>TODO: this works around .astype(bool) not working properly (gh-9847)</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/numeric.py</Filename>
+      <Linenumber>489</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{14855722-611f-48a9-a1c6-14bf0a8ec537}">
+    <Summary>NOTE: We explicitly allow timedelta, which used to work. This could</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/numeric.py</Filename>
+      <Linenumber>2354</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f1ad9203-ffa6-49a4-bdf0-099958656f6c}">
+    <Summary>TODO: This discrepency _should_ be resolved, either by relaxing the</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_array_coercion.py</Filename>
+      <Linenumber>432</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{654acd76-cf49-48e7-ab70-7f8e5c037334}">
+    <Summary>TODO: Should have two tables or no a different solution.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_casting_unittests.py</Filename>
+      <Linenumber>24</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{55a1a853-3a10-44b3-99a5-3f20a99212a1}">
+    <Summary>TODO: Changing to 'same_kind' or 'safe' casting in the ufuncs by</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_datetime.py</Filename>
+      <Linenumber>911</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{40877b1c-9161-4cb7-a541-c9d1cfcb0f94}">
+    <Summary>TODO: Allowing unsafe casting by</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_datetime.py</Filename>
+      <Linenumber>1448</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{57a6c842-fb56-4ef7-a57d-ad175c654d34}">
+    <Summary>NOTE: some of the operations may be supported</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_datetime.py</Filename>
+      <Linenumber>1916</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{454a9cbd-5b8e-4b5b-b994-3b1412815d61}">
+    <Summary>TODO: add absolute (gold standard) time span limit strings</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_datetime.py</Filename>
+      <Linenumber>2384</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{360cabef-5e92-446c-82f3-49867cacc120}">
+    <Summary>NOTE: list(b'123') == [49, 50, 51]</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_defchararray.py</Filename>
+      <Linenumber>361</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{20e962e2-3531-4634-9dfb-55eb11cb5539}">
+    <Summary>NOTE: Tests for the versions including __len__ and __getitem__ exist</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_deprecations.py</Filename>
+      <Linenumber>788</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{48a2a340-40ca-4ee1-ab4e-44503b9544a2}">
+    <Summary>NOTE: We actually do still call __array__, etc. but ignore the result</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_deprecations.py</Filename>
+      <Linenumber>846</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{1f717f1a-37b8-4c4a-8ced-be7b81731667}">
+    <Summary>NOTE: This test is triggered by the fact that the default buffersize,</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_einsum.py</Filename>
+      <Linenumber>689</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a6d424c2-0903-47c5-950f-d31551f298c4}">
+    <Summary>NOTE:</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_indexing.py</Filename>
+      <Linenumber>789</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{f898bc79-4a94-4493-bdf4-13c513121580}">
+    <Summary>NOTE: This is a funny twist (and probably OK to change).</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_indexing.py</Filename>
+      <Linenumber>868</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{fe62eb1d-4a0d-4691-a1c2-bddcbe4e0830}">
+    <Summary>NOTE: There could still have been a 0-sized Ellipsis</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_indexing.py</Filename>
+      <Linenumber>981</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{2be70793-0157-4c80-b729-65eb5714dea4}">
+    <Summary>NOTE: A 0-d array triggers this as well, while one may</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_indexing.py</Filename>
+      <Linenumber>986</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{2e577d85-fe0d-4cb1-8fab-0455692ba458}">
+    <Summary>NOTE: This is different from normal broadcasting, as</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_indexing.py</Filename>
+      <Linenumber>1160</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{3f49b02c-fc79-4988-bcee-52fe667f062d}">
+    <Summary>FIXME:</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_multiarray.py</Filename>
+      <Linenumber>5613</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{57f8273e-6a73-4112-b711-4a7945a885d0}">
+    <Summary>TODO: test for multidimensional</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_multiarray.py</Filename>
+      <Linenumber>6743</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{6a647592-16a4-4254-b84a-034437dc5f2f}">
+    <Summary>NOTE: Because Py2 str/Py3 bytes supports the buffer interface, setting</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:10</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_multiarray.py</Filename>
+      <Linenumber>7680</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{dd0e37db-0d2d-487d-91a9-c409dafdb6a4}">
+    <Summary>NOTE: the expected function spec doesn't</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_numeric.py</Filename>
+      <Linenumber>2302</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{f723a3ac-4f43-47a4-8cc5-f0987f416964}">
+    <Summary>NOTE: this example is somewhat artificial;</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_regression.py</Filename>
+      <Linenumber>1747</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{6d90fdff-fea5-4382-8bf3-8af01eb34891}">
+    <Summary>NOTE: Please avoid the use of numpy.testing since NPYV intrinsics</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_simd.py</Filename>
+      <Linenumber>1</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{859c7d68-d36c-4ee8-870a-75d29d111562}">
+    <Summary>FIXME: a not used</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_umath.py</Filename>
+      <Linenumber>1754</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{ef7da043-09c9-4405-8a58-983167c54c37}">
+    <Summary>NOTE: this class is used in doc/source/user/basics.subclassing.rst</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_umath.py</Filename>
+      <Linenumber>2612</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{6b8fcb77-f1c7-4b02-9caf-e8c6d1bfc5d8}">
+    <Summary>TODO: branch cuts (use Pauli code)</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_umath_complex.py</Filename>
+      <Linenumber>12</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8b4483e8-1cac-4c60-bdd6-7a751ba7a550}">
+    <Summary>TODO: conj 'symmetry'</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_umath_complex.py</Filename>
+      <Linenumber>13</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ccac3660-6bb1-4d71-826d-2b57748f3c3d}">
+    <Summary>TODO: FPU exceptions</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_umath_complex.py</Filename>
+      <Linenumber>14</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{7ea66446-1516-4b86-84cd-355bd0cd136e}">
+    <Summary>FIXME: this will probably change when we require full C99 campatibility</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_umath_complex.py</Filename>
+      <Linenumber>19</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ca0e0d21-e7cb-4d63-9910-d5e72110f7e9}">
+    <Summary>TODO: replace with a check on whether platform-provided C99 funcs are used</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/core/tests/test_umath_complex.py</Filename>
+      <Linenumber>23</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b1d06c4b-a3d5-471b-a149-e54b140496ef}">
+    <Summary>TODO: ARM MSVC</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/ccompiler_opt.py</Filename>
+      <Linenumber>509</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7f32c54d-13a8-4fec-beec-b2537c1f88c3}">
+    <Summary>TODO: remove the cache form share on del</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/ccompiler_opt.py</Filename>
+      <Linenumber>791</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7d128350-1fb5-4a8a-8685-4eb0c5b284b1}">
+    <Summary>TODO: don't write if the cache doesn't change</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/ccompiler_opt.py</Filename>
+      <Linenumber>795</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{95998230-81c4-4551-ac82-580dcb5db617}">
+    <Summary>FIXME: that's not a safe way to increase the rank for</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/ccompiler_opt.py</Filename>
+      <Linenumber>1229</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{b08ff8af-de51-4690-8e24-601ddb410d57}">
+    <Summary>NOTE: operand + is only added for nominal reason.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/ccompiler_opt.py</Filename>
+      <Linenumber>1608</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c3b36fea-a781-4c6d-8af1-90a596cc0419}">
+    <Summary>TODO:</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/ccompiler_opt.py</Filename>
+      <Linenumber>2359</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{6b5258ad-c6f6-4181-8931-3d3cc98c352f}">
+    <Summary>TODO: add support for 'markdown' format</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/ccompiler_opt.py</Filename>
+      <Linenumber>2400</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{bde4db63-a7e9-4550-9771-06f46e0235d7}">
+    <Summary>NOTE: any specified features will be ignored if they're:</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/command/build.py</Filename>
+      <Linenumber>45</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{44d2433d-0954-4f77-a387-ce6f08dd15b6}">
+    <Summary>FIXME: In the case where there are more than two packages,</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/command/build_ext.py</Filename>
+      <Linenumber>312</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{08a18319-3035-4285-9db9-c51c30191bf6}">
+    <Summary>TODO: --inplace support for sdist command</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/command/build_src.py</Filename>
+      <Linenumber>548</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{71a06d08-180f-43f4-8af7-e8a0b511a4e8}">
+    <Summary>NOTE: this and similar examples are probably just</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/fcompiler/__init__.py</Filename>
+      <Linenumber>480</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{45fd32c7-6c75-48e7-8657-916ae7cea141}">
+    <Summary>TODO: implement get_f90flags and use it in _compile similarly to get_f77flags</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/fcompiler/__init__.py</Filename>
+      <Linenumber>1019</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1749a03c-1c10-428a-84e6-6f868dcd3da1}">
+    <Summary>TODO: could use -Xlinker here, if it's supported</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/fcompiler/gnu.py</Filename>
+      <Linenumber>253</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f2294d71-6bec-407b-9e45-f2eb8866ee6b}">
+    <Summary>TODO: could use -Xlinker here, if it's supported</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/fcompiler/intel.py</Filename>
+      <Linenumber>24</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{f52d331a-9984-41e9-94a1-b9672a6f00a4}">
+    <Summary>FIXME: document this. If pkgname is defined in the variables section, and</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/npy_pkg_config.py</Filename>
+      <Linenumber>306</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c77c4377-8c5d-4e07-bda7-0f23a86c2041}">
+    <Summary>TODO:</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/npy_pkg_config.py</Filename>
+      <Linenumber>372</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{94ad9a9f-01d8-4298-a629-77b1a1cc5163}">
+    <Summary>FIXME: lapack_atlas is unused</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/system_info.py</Filename>
+      <Linenumber>1351</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{deec990f-79ee-489a-b5db-9b52e37a781d}">
+    <Summary>FIXME: r not used</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/distutils/system_info.py</Filename>
+      <Linenumber>3074</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{0da9b751-9ee0-4c69-8aaf-f26b8db60435}">
+    <Summary>TODO:</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:11</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/f2py/crackfortran.py</Filename>
+      <Linenumber>135</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{220b2e70-9a2c-453b-9fad-ed55cfd3b4ed}">
+    <Summary>TODO:</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/f2py/crackfortran.py</Filename>
+      <Linenumber>1885</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{94c64660-f44b-4622-b8bb-8f37fb7cf733}">
+    <Summary>TODO: test .eq., .neq., etc replacements.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/f2py/crackfortran.py</Filename>
+      <Linenumber>2495</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ec02eee9-b115-4bc3-a497-d6c2c17f245d}">
+    <Summary>TODO:</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/f2py/crackfortran.py</Filename>
+      <Linenumber>3185</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{7473f926-70de-41f8-bb44-e99388e32dba}">
+    <Summary>NOTE: how bad of an idea is this patching?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/f2py/tests/test_compile_function.py</Filename>
+      <Linenumber>99</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{7a6638ae-75bd-4034-8063-a44a0318bd03}">
+    <Summary>TODO: .zip support, .tar support?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/_datasource.py</Filename>
+      <Linenumber>74</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ebf842f7-277c-4cca-9025-88141ab54a1c}">
+    <Summary>TODO: Doesn't handle compressed files!</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/_datasource.py</Filename>
+      <Linenumber>333</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{278f7fa2-8f56-46ed-9c41-765f418d895b}">
+    <Summary>TODO:  This should be more robust.  Handles case where path includes</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/_datasource.py</Filename>
+      <Linenumber>399</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{6f0bcf08-f69e-4984-a0f8-e77f3199c802}">
+    <Summary>TODO: There is no support for opening a file for writing which</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/_datasource.py</Filename>
+      <Linenumber>513</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{bb583eba-1238-4d13-b1bc-c1102f3138d2}">
+    <Summary>TODO: Add a ``subdir`` parameter for specifying the subdirectory</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/_datasource.py</Filename>
+      <Linenumber>516</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{d3d078e6-f7e6-45c0-9c76-ef4be4841d51}">
+    <Summary>NOTE: _findfile will fail on a new file opened for writing.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/_datasource.py</Filename>
+      <Linenumber>522</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{18b9e590-a48d-47d5-8eef-3fbaef5ed45b}">
+    <Summary>TODO: handle the optional third argument for __pow__?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/mixins.py</Filename>
+      <Linenumber>162</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{c840b2e4-0b33-481f-9c4e-0aec5aef9241}">
+    <Summary>FIXME: This seems like it will copy strings around</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/npyio.py</Filename>
+      <Linenumber>234</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{0b81ee2b-f158-4ccc-9a07-2d18ae8e77fc}">
+    <Summary>TODO: specify exact message</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/tests/test_io.py</Filename>
+      <Linenumber>298</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{9e088156-e76e-475c-aa6c-eb7eeea444ec}">
+    <Summary>NOTE: This class should be kept as an exact copy of the example from the</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/tests/test_mixins.py</Filename>
+      <Linenumber>8</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{b824a1e6-01de-498b-b0f3-78717083bad5}">
+    <Summary>NOTE:  pydoc defines a help function which works similarly to this</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/lib/utils.py</Filename>
+      <Linenumber>359</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{0f5ab0b6-d045-464a-aa2b-d52f2d27d716}">
+    <Summary>FIXME: real_t is unused</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/linalg/linalg.py</Filename>
+      <Linenumber>2277</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{bbe8c103-f93c-450b-8196-f4b7b9740825}">
+    <Summary>TODO: are there no other tests for cholesky?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/linalg/tests/test_linalg.py</Filename>
+      <Linenumber>1712</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{90816252-1021-441f-a4e3-2c1e678477a1}">
+    <Summary>NOTE: We explicitly allow timedelta, which used to work. This could</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:12</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/ma/core.py</Filename>
+      <Linenumber>7874</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{e20f0e0c-8605-45de-ba89-08f5f167e4b4}">
+    <Summary>NOTE: This test was never run properly as &quot;fill_value&quot; rather than</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/ma/tests/test_core.py</Filename>
+      <Linenumber>2053</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{48c0651d-91e6-422f-aaff-c380bb96cbe3}">
+    <Summary>TODO: Test masked_object, masked_equal, ...</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/ma/tests/test_core.py</Filename>
+      <Linenumber>5155</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{6d36d432-6df6-4f61-a540-1efad597745d}">
+    <Summary>FIXME: Find out what the following raises a warning in r8247</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/ma/tests/test_old_ma.py</Filename>
+      <Linenumber>654</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{4421fa64-cb63-4913-b7aa-d9fd81faba53}">
+    <Summary>TODO: we're stuck with disabling math formatting until we handle</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/polynomial/_polybase.py</Filename>
+      <Linenumber>407</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{2f3fa207-6c92-40ee-a8e8-453cf9583ff5}">
+    <Summary>TODO: Include test for randint once it can broadcast</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/random/tests/test_random.py</Filename>
+      <Linenumber>1012</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{a81b9b99-e6a8-4d97-b6b5-936512a9af24}">
+    <Summary>TODO: Uncomment once randint can broadcast arguments</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/random/tests/test_random.py</Filename>
+      <Linenumber>1670</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{65cb572a-d672-4f16-904b-ce1e69efc4e3}">
+    <Summary>NOTE: Many counters require 2 samples to give accurate results,</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/testing/_private/utils.py</Filename>
+      <Linenumber>157</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{9ab3b32c-bc7a-45bc-aad9-f1b46b60b49d}">
+    <Summary>FIXME: None of these tests is run, because 'check' is not a recognized</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/testing/tests/test_doctesting.py</Filename>
+      <Linenumber>4</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{dd700ad4-df27-473e-b0ad-1132c07ffdc4}">
+    <Summary>NOTE: The API section will be appended with additional entries</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/__init__.py</Filename>
+      <Linenumber>120</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{1b1c878c-237b-44d2-90be-c6fafc670294}">
+    <Summary>TODO: support buffer protocols once</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/_array_like.py</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{f7d92e72-370f-4eeb-bae4-cc983ad0f8e1}">
+    <Summary>TODO: Wait for support for recursive types</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/_array_like.py</Filename>
+      <Linenumber>38</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{e6189768-4d86-4719-9fef-62e88a5f66a9}">
+    <Summary>NOTE: `uint64 + signedinteger -&gt; float64`</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/_callable.py</Filename>
+      <Linenumber>153</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{09e9f2af-1dd6-497c-a7c9-e711a7c9729e}">
+    <Summary>TODO: wait for support for recursive types</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/_dtype_like.py</Filename>
+      <Linenumber>18</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b7ab949e-3087-40d7-9bd0-300f6721f97a}">
+    <Summary>TODO: enumerate these when we add type hints for numpy scalars</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/_dtype_like.py</Filename>
+      <Linenumber>68</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{e7adfd22-c228-48fe-a4c3-4812bb59c818}">
+    <Summary>NOTE: while it is possible to provide the dtype as a dict of</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/_dtype_like.py</Filename>
+      <Linenumber>76</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{e93a6821-d6d7-4754-bef8-08f48bdbdd99}">
+    <Summary>NOTE: `_StrLike` and `_BytesLike` are pointless, as `np.str_` and `np.bytes_`</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/_scalars.py</Filename>
+      <Linenumber>5</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{3c168050-e996-432b-bc38-7a5b8fe4edaa}">
+    <Summary>TODO: Reenable this once we add support for numerical precision for `number`s</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/tests/data/fail/bitwise_ops.py</Filename>
+      <Linenumber>19</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{4a8cab43-ea19-42a0-8904-500b8a9d6de5}">
+    <Summary>NOTE: Contrary to `ndarray.__getitem__` its counterpart in `flatiter`</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:13</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/tests/data/fail/flatiter.py</Filename>
+      <Linenumber>20</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{552fac85-739d-4e15-8687-b19c9a07074b}">
+    <Summary>TODO: protocols (can't check for non-existent protocols w/ __getattr__)</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/tests/data/fail/scalars.py</Filename>
+      <Linenumber>29</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a52290c9-8114-427c-8c08-6377e9c37d83}">
+    <Summary>NOTE: `np.generic` subclasses are not guaranteed to support addition;</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/tests/data/pass/ufuncs.py</Filename>
+      <Linenumber>9</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{ea589f73-5481-4593-a4ae-ab30f2f66806}">
+    <Summary>TODO: Add tests for np.put()</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/tests/data/reveal/fromnumeric.py</Filename>
+      <Linenumber>52</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{10348fe2-2f5f-44f2-b089-c5b771fdbce0}">
+    <Summary>TODO: Remove when annotations have been added to `np.testing.assert_equal`</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/numpy/typing/tests/data/reveal/modules.py</Filename>
+      <Linenumber>32</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{2ea2454c-72b8-4ca7-8a0c-bcc3f25bc652}">
+    <Summary>TODO: Try to get these passing down from the command?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/cli/base_command.py</Filename>
+      <Linenumber>124</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{0dd4adf5-7475-494c-8792-b4c1a56628d4}">
+    <Summary>FIXME: all commands should return an exit status</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/cli/base_command.py</Filename>
+      <Linenumber>144</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{446869cc-d26c-46b3-8bd7-91544b2e47c9}">
+    <Summary>NOTE: As a side-effect, options.require_hashes and</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/cli/base_command.py</Filename>
+      <Linenumber>203</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{3a87f079-8e27-44a2-acfd-c6006852723c}">
+    <Summary>NOTE: There is some duplication here from pip check</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/commands/install.py</Filename>
+      <Linenumber>498</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{edb155f7-d462-41c6-9501-d32f84668ffd}">
+    <Summary>NOTE: XMLRPC Client is not annotated in typeshed as on 2017-07-17, which is</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/commands/search.py</Filename>
+      <Linenumber>10</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{5bf714ab-847c-4e54-9506-f16f140bdfbc}">
+    <Summary>NOTE: Maybe use the optionx attribute to normalize keynames.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/configuration.py</Filename>
+      <Linenumber>42</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{d7bde4c8-05b4-4586-a0ad-b278b30cdf2f}">
+    <Summary>NOTE: Dictionaries are not populated if not loaded. So, conditionals</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/configuration.py</Filename>
+      <Linenumber>236</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{d2f53b18-7fe8-4a99-9548-13b9468f3be8}">
+    <Summary>NOTE: XMLRPC Client is not annotated in typeshed as on 2017-07-17, which is</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/download.py</Filename>
+      <Linenumber>24</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{f25889e3-d2d8-4be8-b85c-37192aa77156}">
+    <Summary>FIXME: catch some errors</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/download.py</Filename>
+      <Linenumber>431</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{1aae291a-c614-47da-a6ad-5b90dac377bc}">
+    <Summary>FIXME: some warning or something?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/index.py</Filename>
+      <Linenumber>66</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{27df10a8-dc58-441b-9190-c89f91f144b4}">
+    <Summary>FIXME: this shouldn't be global list this, it should only</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/index.py</Filename>
+      <Linenumber>287</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{64b4f3eb-b89e-4ba5-a378-23c78d3684a8}">
+    <Summary>FIXME: also, we should track comes_from (i.e., use Link)</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/index.py</Filename>
+      <Linenumber>290</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{1988fdd5-53ce-4fa6-b3b9-02b0e8965b85}">
+    <Summary>FIXME: keep src in cwd for now (it is not a temporary folder)</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/locations.py</Filename>
+      <Linenumber>67</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{1bb75a41-20e5-4dcf-94c8-9233247b29d9}">
+    <Summary>NOTE: setting user or home has the side-effect of creating the home dir</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/locations.py</Filename>
+      <Linenumber>155</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{4a2d5d72-2df8-4424-9e49-8fb65f616ed0}">
+    <Summary>FIXME: could not find svn URL in dependency_links '</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/operations/freeze.py</Filename>
+      <Linenumber>222</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{43f2b1a0-0ae1-47f4-b0d3-f518d8426103}">
+    <Summary>FIXME:https://github.com/pypa/pip/issues/1112</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:14</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/operations/prepare.py</Filename>
+      <Linenumber>80</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{4b20787b-d03b-4aeb-aaa4-3b4e90fc4edc}">
+    <Summary>FIXME: shouldn't be globally added.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/operations/prepare.py</Filename>
+      <Linenumber>88</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{da768908-1155-4d59-9ee2-8df6aa0fb444}">
+    <Summary>TODO: Modify to reduce indentation needed</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/operations/prepare.py</Filename>
+      <Linenumber>174</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{90cbdcb2-ae8f-4737-a153-b2a1ec75b61f}">
+    <Summary>TODO: Breakup into smaller functions</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/operations/prepare.py</Filename>
+      <Linenumber>190</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{b1b1262d-ea02-46d8-a4b8-ef0e88fad779}">
+    <Summary>FIXME: this won't upgrade when there's an existing</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/operations/prepare.py</Filename>
+      <Linenumber>206</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c72f0d6e-c572-45cd-b7c5-92260f080858}">
+    <Summary>TODO: Review this - it's quite a lot of work to check for a very</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/pyproject.py</Filename>
+      <Linenumber>134</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{40a2a599-ca19-4ba2-8a16-bb0125780ba1}">
+    <Summary>TODO: Why not use `comes_from='-r {} (line {})'` here as well?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_file.py</Filename>
+      <Linenumber>185</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{446a834a-ac30-4742-84c8-52d317adf056}">
+    <Summary>FIXME: it would be nice to keep track of the source</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_file.py</Filename>
+      <Linenumber>206</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{4d25f7eb-f513-4744-a31c-0d54cea3054b}">
+    <Summary>TODO: handle space after '\'.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_file.py</Filename>
+      <Linenumber>289</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{67618dff-db06-489c-ac30-1df79f301a28}">
+    <Summary>TODO: We don't do this for --no-build-isolation. Should we?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_install.py</Filename>
+      <Linenumber>114</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{f3e0f1e2-c231-436c-83ba-d53cad662073}">
+    <Summary>FIXME: Is there a better place to create the build_dir? (hg and bzr</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_install.py</Filename>
+      <Linenumber>274</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{e21977dc-18d2-4a48-90a4-6b9fb7ee48a3}">
+    <Summary>FIXME: should we do --install-headers here too?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_install.py</Filename>
+      <Linenumber>615</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8fbc71b8-9598-4f59-b846-e982929230b7}">
+    <Summary>TODO: Investigate if this should be kept in InstallRequirement</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_install.py</Filename>
+      <Linenumber>694</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{289065e8-c816-47bc-a3c7-05b497dd990c}">
+    <Summary>FIXME: put the record somewhere</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_install.py</Filename>
+      <Linenumber>817</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{d4748c89-d6c6-4b37-93a4-cf3fc0592a78}">
+    <Summary>FIXME: should this be an error?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_install.py</Filename>
+      <Linenumber>818</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{c5bf50f3-6f9a-4627-9f21-43704e0ffd09}">
+    <Summary>FIXME: what about other normalizations?  E.g., _ vs. -?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_set.py</Filename>
+      <Linenumber>115</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{6e2d2522-b58a-4c8c-a17a-ce7fdb13e3e8}">
+    <Summary>FIXME: need a test for this elif block</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/req/req_uninstall.py</Filename>
+      <Linenumber>322</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{84e9a116-c7fc-4730-88a8-6777799f977b}">
+    <Summary>NOTE: This would eventually be replaced with a cache that can give</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/resolve.py</Filename>
+      <Linenumber>46</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{8a88c369-3c8f-4a0e-97a5-a237958e503b}">
+    <Summary>WARNING: time of check vulnerability, but best we can do w/o NOFOLLOW</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/utils/compat.py</Filename>
+      <Linenumber>152</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{be0ade85-d919-4373-92b6-43d7b80c33a5}">
+    <Summary>NOTE: retrying is not annotated in typeshed as on 2017-07-17, which is</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/utils/misc.py</Filename>
+      <Linenumber>22</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{451c56f3-1b75-460f-82da-f661c4101463}">
+    <Summary>FIXME: handle?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/utils/misc.py</Filename>
+      <Linenumber>613</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{e0ca9a48-d79f-458f-b233-ca41023a6c83}">
+    <Summary>FIXME: magic signatures?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:15</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/utils/misc.py</Filename>
+      <Linenumber>614</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{a69f8489-15c3-41ed-9f0a-2a5e39eab7fa}">
+    <Summary>NOTE: The &quot;type: ignore&quot; comments on the following classes are there to</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/utils/ui.py</Filename>
+      <Linenumber>201</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{f2f7d615-a3d6-40bb-b930-55bcbbe95c18}">
+    <Summary>FIXME: will this work when a package has - in the name?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/vcs/subversion.py</Filename>
+      <Linenumber>70</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{76ab59a2-bb47-4b48-83d8-21dd704321f9}">
+    <Summary>FIXME: should we warn?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/vcs/subversion.py</Filename>
+      <Linenumber>92</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="0" uid="{bfb305bd-6338-4c38-8661-376e0297f3ae}">
+    <Summary>FIXME: why not project name?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/vcs/subversion.py</Filename>
+      <Linenumber>204</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{49dfe923-372d-4c62-948f-7a4eed787a87}">
+    <Summary>TODO: maybe move the install code into this class</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/wheel.py</Filename>
+      <Linenumber>570</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{5673c1c3-163a-4274-abff-6205413b3647}">
+    <Summary>NOTE: Eventually, we'd want to also -S to the flags here, when we're</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_internal/wheel.py</Filename>
+      <Linenumber>666</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{6fcbec24-58fa-44fb-8d71-b688174a5733}">
+    <Summary>WARNING: 3, # Yellow</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pip/_vendor/pep517/colorlog.py</Filename>
+      <Linenumber>43</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{21506681-541e-4a7d-a080-6ee9ecbac0fe}">
+    <Summary>WARNING: Do not use this on Windows. See the Vista-Fail note above for why.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pkg_resources/_vendor/appdirs.py</Filename>
+      <Linenumber>129</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{32bd1a46-c7f6-4335-8d2a-c10aa155cc96}">
+    <Summary>WARNING: Do not use this on Windows. See the Vista-Fail note above for why.</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pkg_resources/_vendor/appdirs.py</Filename>
+      <Linenumber>234</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{e222564f-cf47-45cc-90bb-ebc335504eb6}">
+    <Summary>TODO: Can we test whether something is contained within a requirement?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/requirements.py</Filename>
+      <Linenumber>83</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{164a8c60-badd-41cb-ac63-53928ad4552d}">
+    <Summary>TODO: Can we normalize the name and extra name?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/requirements.py</Filename>
+      <Linenumber>86</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{8a8718b3-0bee-45a1-8b39-b7e49236d40c}">
+    <Summary>NOTE: this returns a *copy* of the original C{ParserElement} object;</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/pkg_resources/_vendor/pyparsing.py</Filename>
+      <Linenumber>1208</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{982abada-8f1a-4c71-b26f-e031fba735b0}">
+    <Summary>TODO: Can we test whether something is contained within a requirement?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/_vendor/packaging/requirements.py</Filename>
+      <Linenumber>83</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{c663a76e-b981-41f2-8364-f1989ae51961}">
+    <Summary>TODO: Can we normalize the name and extra name?</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/_vendor/packaging/requirements.py</Filename>
+      <Linenumber>86</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="3" uid="{2a585b95-b2f4-4b82-9d4c-9918be81bf35}">
+    <Summary>NOTE: this returns a *copy* of the original C{ParserElement} object;</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/_vendor/pyparsing.py</Filename>
+      <Linenumber>1208</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{f87c20d7-279b-4ae9-8aa3-a51787ceb469}">
+    <Summary>WARNING: 'depends.txt' will not be used by setuptools 0.6!\n&quot;</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:16</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/command/bdist_egg.py</Filename>
+      <Linenumber>225</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{b443f175-4c23-4f23-937e-ae4fcd9eb991}">
+    <Summary>WARNING: can't process %s&quot;, src)</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:17</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/command/easy_install.py</Filename>
+      <Linenumber>1049</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{8fdb07b5-4bfb-43b5-8b22-ddacad205266}">
+    <Summary>TODO: self.report_extras(req, dist)</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:17</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/command/easy_install.py</Filename>
+      <Linenumber>1134</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{d4d7053f-5fd2-4e71-8f40-bfd6c7726910}">
+    <Summary>WARNING: 'depends.txt' is not used by setuptools 0.6!\n&quot;</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:17</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/command/egg_info.py</Filename>
+      <Linenumber>633</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{49e3f7b8-6b43-4bae-8bec-cdce41ba15d4}">
+    <Summary>TODO: is it necessary to short-circuit here? i.e. what's the cost</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:17</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/command/install_lib.py</Filename>
+      <Linenumber>67</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{079e8119-2301-4ca3-8da8-bf7850de1246}">
+    <Summary>WARNING: Registering is deprecated, use twine to &quot;</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:17</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/command/register.py</Filename>
+      <Linenumber>15</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{ec9747fc-c3b3-47db-a0b7-d404d2883bd5}">
+    <Summary>WARNING: Uploading via this command is deprecated, use twine &quot;</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:17</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/command/upload.py</Filename>
+      <Linenumber>29</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{28621b50-d59b-43ca-9237-60f95af0a27c}">
+    <Summary>WARNING: %r is declared as a package namespace, but %r&quot;</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:17</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/dist.py</Filename>
+      <Linenumber>240</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="2" uid="{a0eecf0b-f9fe-4073-bdab-812adb3022fb}">
+    <Summary>WARNING: %r not a valid package name; please use only &quot;</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 18:55:17</Created>
+    <Resource>
+      <Filename>tflite1-env/lib/python3.7/site-packages/setuptools/dist.py</Filename>
+      <Linenumber>332</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{b9f5f920-18bb-461b-98a9-71d34a8f8fb6}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 19:06:12</Created>
+    <Resource>
+      <Filename>ui/mainWindow.py</Filename>
+      <Linenumber>35</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{d650a176-c8e6-4f61-b0dc-769486926fb6}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 19:06:12</Created>
+    <Resource>
+      <Filename>ui/mainWindow.py</Filename>
+      <Linenumber>43</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{dbbcaf71-2b21-4b1b-b44b-1e80bfebb5cf}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-06-03, 19:06:12</Created>
+    <Resource>
+      <Filename>ui/mainWindow.py</Filename>
+      <Linenumber>51</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

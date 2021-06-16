@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project program -->
+<!-- Saved: 2021-05-04, 20:48:17 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{ade5ec02-e19d-449b-af69-972e2aeeebdc}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2021-05-04, 20:47:33</Created>
+    <Resource>
+      <Filename>ui/mainWindow.py</Filename>
+      <Linenumber>33</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>
